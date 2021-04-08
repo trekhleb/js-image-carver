@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "author": "Oleksii Trekhleb (https://www.linkedin.com/in/trekhleb/)",
+  "homepage": "https://trekhleb.dev/js-image-carver",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trekhleb/js-image-carver.git"
