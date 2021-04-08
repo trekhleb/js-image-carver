@@ -11,19 +11,19 @@ type AlertProps = {
   children: React.ReactNode | null,
 };
 
-type alertIcons = Record<AlertType, React.ReactNode>;
+type AlertIcons = Record<AlertType, React.ReactNode>;
 
-type alertClasses = Record<AlertType, string>;
+type AlertClasses = Record<AlertType, string>;
 
 export const InfoAlert: AlertType = 'info';
 export const ErrorAlert: AlertType = 'error';
 
-const alertIcons: alertIcons = {
+const alertIcons: AlertIcons = {
   [InfoAlert]: <BsFillInfoCircleFill size={18} />,
   [ErrorAlert]: <BiErrorCircle size={18} />,
 };
 
-const alertClasses: alertClasses = {
+const alertClasses: AlertClasses = {
   [InfoAlert]: 'text-blue-600 bg-blue-100',
   [ErrorAlert]: 'text-red-600 bg-red-100',
 };

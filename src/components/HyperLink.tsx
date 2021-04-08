@@ -31,13 +31,13 @@ const HyperLink = (props: HyperLinkProps): React.ReactElement | null => {
   const hoverClasses = hoverClassName || 'hover:text-red-600';
 
   const commonClasses = formatted
-    ? `transition duration-200 ease-in-out flex flex-row items-center ${hoverClasses}`
+    ? `transition duration-200 ease-in-out whitespace-nowrap flex flex-row items-center ${hoverClasses}`
     : '';
 
   const caption = link?.caption || undefined;
 
   const separator = startEnhancer ? (
-    <span className="w-2" />
+    <span className="w-1" />
   ) : null;
 
   return (
@@ -46,6 +46,7 @@ const HyperLink = (props: HyperLinkProps): React.ReactElement | null => {
       className={`${commonClasses} ${className}`}
       onClick={onClick}
       title={caption}
+      style={{ fontWeight: 400 }}
     >
       {formatted && startEnhancer}
       {formatted && separator}

@@ -1,3 +1,3 @@
-# JS Seam Carver
+# JS IMAGE CARVER
 
-Content aware image resizer
+Content-aware image resizer

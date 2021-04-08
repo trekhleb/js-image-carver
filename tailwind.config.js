@@ -16,11 +16,6 @@ module.exports = {
           ...defaultTheme.fontFamily.sans,
         ],
       },
-      boxShadow: {
-        // The shadow-card class that is used for Cards.
-        // @see: https://tailwindcss.com/docs/box-shadow
-        card: '0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12)',
-      },
       // Tailwinds typography customization
       // @see: https://github.com/tailwindlabs/tailwindcss-typography#customization
       typography: (theme) => ({
@@ -28,7 +23,7 @@ module.exports = {
           css: {
             // color: '#0FF',
             a: {
-              color: theme('colors.red.600'),
+              color: theme('colors.black'),
               '&:hover': {
                 color: theme('colors.red.500'),
               },
