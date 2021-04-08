@@ -1,7 +1,8 @@
 {
-  "name": "js-seam-carver",
+  "name": "js-image-carver",
   "version": "0.1.0",
   "private": false,
+  "author": "Oleksii Trekhleb (https://www.linkedin.com/in/trekhleb/)",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@react-icons/all-files": "^4.1.0",
