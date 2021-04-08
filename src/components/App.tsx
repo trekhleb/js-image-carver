@@ -1,9 +1,10 @@
 import React from 'react';
+import ImageResizer from './ImageResizer';
 
 function App() {
   return (
     <div>
-      app here
+      <ImageResizer withSeam />
     </div>
   );
 }
