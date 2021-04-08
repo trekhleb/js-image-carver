@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { ImShrink2 } from '@react-icons/all-files/im/ImShrink2';
-import { AiOutlineClear } from '@react-icons/all-files/ai/AiOutlineClear';
 import { FaRegHandPointer } from '@react-icons/all-files/fa/FaRegHandPointer';
 
 import {
@@ -24,6 +23,7 @@ import Input from './Input';
 import FadeIn from './FadeIn';
 import Mask from './Mask';
 import { Coordinate, getPixel, setPixel } from '../utils/image';
+import { MdLayersClear } from '@react-icons/all-files/md/MdLayersClear';
 
 const defaultWidthScale = 50;
 const defaultHeightScale = 70;
@@ -329,8 +329,10 @@ const ImageResizer = (props: ImageResizerProps): React.ReactElement => {
         disabled={isResizing || !maskImgData}
         kind={BUTTON_KIND_SECONDARY}
         title="Clear mask"
+        className="rounded-full"
+        style={{ padding: '8px 8px', border: 0, outline: 'none' }}
       >
-        <AiOutlineClear size={14} />
+        <MdLayersClear size={16} />
       </Button>
     </div>
   );
