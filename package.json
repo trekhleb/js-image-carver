@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": false,
   "author": "Oleksii Trekhleb (https://www.linkedin.com/in/trekhleb/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trekhleb/js-image-carver.git"
+  },
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@react-icons/all-files": "^4.1.0",
