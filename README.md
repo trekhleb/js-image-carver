@@ -12,7 +12,7 @@ The idea behind the [Seam Carving algorithm](https://perso.crans.org/frenoy/matl
 
 ![JS IMAGE CARVER DEMO](public/demo-01.gif)
 
-The importance of each pixel (its so-called energy) is being calculated based on its color (`R`, `G`, `B`) difference between two neighbor pixels. More detailed explanation with examples you may find in my [Content-aware image resizing in JavaScript](https://trekhleb.dev/blog/2021/content-aware-image-resizing-in-javascript/) blog post. Now, if we would set the pixel energy to some really low levels artificially (i.e. by drawing a mask on top of them), the Seam Carving algorithm would perform an _object removal_ for us.
+The importance of each pixel (its so-called energy) is being calculated based on its color (`R`, `G`, `B`) difference between two neighbor pixels. More detailed explanation with examples you may find in my [Content-aware image resizing in JavaScript](https://trekhleb.dev/blog/2021/content-aware-image-resizing-in-javascript/) blog post. Now, if we set the pixel energy to some really low levels artificially (i.e. by drawing a mask on top of them), the Seam Carving algorithm would perform an _object removal_ for us.
 
 ![JS IMAGE CARVER OBJECT REMOVAL DEMO](public/demo-02.gif)
 
