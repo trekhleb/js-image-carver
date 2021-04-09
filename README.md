@@ -8,8 +8,6 @@ Content-aware image resizer
 
 ![JS IMAGE CARVER](public/site-meta-image.png)
 
-<small>Background photo by <a href="https://unsplash.com/@sadswim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ian dooley</a></small>
-
 ## Features
 
 - [x] Downscaling of the images without distorting their content-intensive parts
