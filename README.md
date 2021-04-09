@@ -8,5 +8,10 @@ Content-aware image resizer.
 
 ## Features
 
-- Tries to resize the image without distorting its important parts. 
-- Supports object removal during resizing.
+- [x] Downscaling of images without distorting important parts 
+- [x] Objects removal during resizing
+
+## Plans
+
+- [ ] Image upscaling
+- [ ] Real-time resizing
