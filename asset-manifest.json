@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/js-image-carver/static/css/main.e3b3978e.chunk.css",
+    "main.js": "/js-image-carver/static/js/main.427e8fa6.chunk.js",
+    "main.js.map": "/js-image-carver/static/js/main.427e8fa6.chunk.js.map",
+    "runtime-main.js": "/js-image-carver/static/js/runtime-main.24eb09fb.js",
+    "runtime-main.js.map": "/js-image-carver/static/js/runtime-main.24eb09fb.js.map",
+    "static/js/2.300f9505.chunk.js": "/js-image-carver/static/js/2.300f9505.chunk.js",
+    "static/js/2.300f9505.chunk.js.map": "/js-image-carver/static/js/2.300f9505.chunk.js.map",
+    "index.html": "/js-image-carver/index.html",
+    "static/css/main.e3b3978e.chunk.css.map": "/js-image-carver/static/css/main.e3b3978e.chunk.css.map",
+    "static/js/2.300f9505.chunk.js.LICENSE.txt": "/js-image-carver/static/js/2.300f9505.chunk.js.LICENSE.txt",
+    "static/media/02.044e70cf.jpg": "/js-image-carver/static/media/02.044e70cf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24eb09fb.js",
+    "static/js/2.300f9505.chunk.js",
+    "static/css/main.e3b3978e.chunk.css",
+    "static/js/main.427e8fa6.chunk.js"
+  ]
+}
