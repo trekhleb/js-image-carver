@@ -10,6 +10,8 @@ Content-aware image resizer
 
 ### Content-aware image resizing
 
+*Content-aware image resizing* might be applied when it comes to changing the image proportions (i.e. when keeping the height but reducing the width) and when cutting off and losing some parts of the image is not desirable. Doing the straightforward image scaling in this case would distort the objects in it. 
+
 ![Content-aware image resizing](public/demo-00-02.png)
 
 The idea behind the [Seam Carving algorithm](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf) is to find the *seam* (continuous sequence of the pixels) with the lowest contribution to the image content and then *carve* (remove) it. This process repeats over and over again until we get the required image width or height. In the example below you may see that the hot air balloon pixels contributes more to the content of the image than the sky pixels. Thus, the sky pixels are being removed first. 
