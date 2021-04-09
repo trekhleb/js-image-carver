@@ -2,9 +2,11 @@
 
 Content-aware image resizer.
 
-- ▶️ [️Launch demo](https://trekhleb.dev/js-image-carver)
-- 📄 Based on [Seam carving paper](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
-- ✏️ Explained in [Seam carving blog-post](https://trekhleb.dev/blog/2021/content-aware-image-resizing-in-javascript/)
+- ▶️ [️Demo](https://trekhleb.dev/js-image-carver)
+- ✏️ [How it works](https://trekhleb.dev/blog/2021/content-aware-image-resizing-in-javascript/)
+- 📄 [Seam carving paper](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
+
+![JS IMAGE CARVER](public/site-meta-image.png)
 
 ## Features
 
