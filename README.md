@@ -8,7 +8,7 @@ Content-aware image resizer
 
 ![JS IMAGE CARVER](public/site-meta-image.png)
 
-<small style="font-size: 10px">
+<small class="color-text-secondary">
 Background image by <a href="https://unsplash.com/@sadswim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ian dooley</a>
 </small>
 
