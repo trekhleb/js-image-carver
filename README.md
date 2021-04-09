@@ -8,6 +8,10 @@ Content-aware image resizer
 
 ![JS IMAGE CARVER](public/site-meta-image.png)
 
+<small>
+Background image by <a href="https://unsplash.com/@sadswim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ian dooley</a>
+</small>
+
 ### Content-aware image resizing
 
 *Content-aware image resizing* might be applied when it comes to changing the image proportions (i.e. reducing the width while keeping the height) and when losing some parts of the image is not desirable. Doing the straightforward image scaling in this case would distort the objects in it. To preserve the objects proportions while changing the image proportions we may use the [Seam Carving algorithm](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf).
