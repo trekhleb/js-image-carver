@@ -11,23 +11,13 @@ import { FaPencilAlt } from '@react-icons/all-files/fa/FaPencilAlt';
 import { RiFileList2Line } from '@react-icons/all-files/ri/RiFileList2Line';
 
 function App() {
-  const algorithmPaperLink = (
-    <HyperLink
-      className="inline-flex ml-1"
-      link={{ url: seamCarvingPaperURL }}
-      startEnhancer={(<RiFileList2Line size={14} />)}
-    >
-      Seam carving paper
-    </HyperLink>
-  );
-
   const algorithmBlogPostLink = (
     <HyperLink
       className="inline-flex ml-1"
       link={{ url: seamCarvingBlogPostURL }}
       startEnhancer={<FaPencilAlt size={13} />}
     >
-      Seam carving blog-post
+      How it works
     </HyperLink>
   );
 
@@ -37,7 +27,17 @@ function App() {
       link={{ url: gitHubRepoURL }}
       startEnhancer={(<AiFillGithub size={16} />)}
     >
-      Source-code on GitHub
+      Source-code
+    </HyperLink>
+  );
+
+  const algorithmPaperLink = (
+    <HyperLink
+      className="inline-flex ml-1"
+      link={{ url: seamCarvingPaperURL }}
+      startEnhancer={(<RiFileList2Line size={14} />)}
+    >
+      Seam carving paper
     </HyperLink>
   );
 
@@ -50,15 +50,15 @@ function App() {
               <h1 className="uppercase" style={{ margin: '0 20px 0 0' }}>{brandName}</h1>
               <h4 className="uppercase" style={{ margin: 0 }}>Content-aware image resizer</h4>
             </div>
-            <div className="text-xs text-gray-500 mb-10 font-light flex md:items-center flex-col md:flex-row">
-              <div className="flex flex-row md:justify-center mb-3 md:mr-8 md:mb-0">
-                Based on {algorithmPaperLink}
+            <div className="text-xs text-gray-500 mb-4 font-light flex items-center flex-row flex-wrap">
+              <div className="flex flex-row justify-center mb-3 mr-4 md:mr-6">
+                {algorithmBlogPostLink}
               </div>
-              <div className="flex flex-row md:justify-center mb-3 md:mr-8 md:mb-0">
-                Explained in {algorithmBlogPostLink}
+              <div className="flex flex-row justify-center mb-3 mr-4 md:mr-6">
+                {gitHubLink}
               </div>
-              <div className="flex flex-row md:justify-center">
-                Shared via {gitHubLink}
+              <div className="flex flex-row justify-center mb-3">
+                {algorithmPaperLink}
               </div>
             </div>
             <InteractivePostArea>
