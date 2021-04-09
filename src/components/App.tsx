@@ -6,7 +6,6 @@ import InteractivePostArea from './InteractivePostArea';
 import { gitHubRepoURL, seamCarvingBlogPostURL, seamCarvingPaperURL } from '../constants/links';
 import HyperLink from './HyperLink';
 import { AiFillGithub } from '@react-icons/all-files/ai/AiFillGithub';
-import { RiFilePaper2Fill } from '@react-icons/all-files/ri/RiFilePaper2Fill';
 import { brandName } from '../constants/siteMeta';
 import { FaPencilAlt } from '@react-icons/all-files/fa/FaPencilAlt';
 import { RiFileList2Line } from '@react-icons/all-files/ri/RiFileList2Line';
