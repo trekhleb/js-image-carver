@@ -30,6 +30,20 @@ The importance of each pixel (its so-called energy) is being calculated based on
 
 You may [launch the JS IMAGE CARVER](https://trekhleb.dev/js-image-carver) and play around with resizing of your custom images.
 
+### More examples
+
+Here are some more examples of how the algorithm copes with more complex backgrounds.
+
+Mountains on the background are being shrunk smoothly without visible seams.
+
+![Resizing demo with more complex backgrounds](public/demo-01.png)
+
+The same goes for the ocean waves. Algorithm preserved the waves structure without distorting the surfers.
+
+![Resizing demo with more complex backgrounds](public/demo-02.png)
+
+But also we need to keep in mind that the Seam Carving algorithm is not a silver bullet, and it may fail to resize the images where most of the pixels are edges (looks important to the algorithm). In this case it starts distorting even the important parts of the image.
+
 ## Features
 
 - [x] Downscaling of the images without distorting their content-intensive parts
