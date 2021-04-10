@@ -18,7 +18,7 @@ In the example below you may see how the original image width was reduced by 50%
 
 ![Content-aware image resizing](public/demo-00-02.png)
 
-The idea behind the Seam Carving algorithm is to find the *seam* (continuous sequence of pixels) with the lowest contribution to the image content and then *carve* (remove) it. This process repeats over and over again until we get the required image width or height. In the example below you may see that the hot air balloon pixels contributes more to the content of the image than the sky pixels. Thus, the sky pixels are being removed first. 
+The idea behind the Seam Carving algorithm is to find the *seam* (continuous sequence of pixels) with the lowest contribution to the image content and then *carve* (remove) it. This process repeats over and over again until we get the required image width or height. In the example below you may see that the hot air balloon pixels contribute more to the content of the image than the sky pixels. Thus, the sky pixels are being removed first. 
 
 ![JS IMAGE CARVER DEMO](public/demo-01.gif)
 
