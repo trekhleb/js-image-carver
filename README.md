@@ -14,7 +14,7 @@ Background image by [Ian Dooley](https://unsplash.com/@sadswim?utm_source=unspla
 
 *Content-aware image resizing* might be applied when it comes to changing the image proportions (i.e. reducing the width while keeping the height) and when losing some parts of the image is not desirable. Doing the straightforward image scaling in this case would distort the objects in it. To preserve the objects proportions while changing the image proportions we may use the [Seam Carving algorithm](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf).
 
-In the example below you may see how the original image width was reduced by 50% using content-aware resizing (left image) and straightforward scaling (right image).
+In the example below you may see how the original image width was reduced by 50% using content-aware resizing (left image) and straightforward scaling (right image). In this particular case the left image looks more natural since proportions of the balloons were preserved.
 
 ![Content-aware image resizing](public/demo-00-02.png)
 
