@@ -30,7 +30,7 @@ The importance of each pixel (so-called pixel's energy) is being calculated base
 
 ![JS IMAGE CARVER OBJECT REMOVAL DEMO](public/demo-02.gif)
 
-You may [launch the JS IMAGE CARVER](https://trekhleb.dev/js-image-carver) and play around with resizing of your custom images.
+You may [launch the JS IMAGE CARVER](https://trekhleb.dev/js-image-carver) and play around with resizing of your custom images. You may also check its [source-code](https://github.com/trekhleb/js-image-carver/tree/main/src/utils).
 
 ### More examples
 
