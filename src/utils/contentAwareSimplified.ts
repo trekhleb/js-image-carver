@@ -194,11 +194,10 @@ type ResizeImageWidthResult = {
   size: ImageSize, // Resized image size (w x h).
 };
 
-// Performs the content-aware image width resizing
-// using the seam carving method.
-export const resizeImageWidth = async (
+// Performs the content-aware image width resizing using the seam carving method.
+export const resizeImageWidth = (
   { img, toWidth }: ResizeImageWidthArgs,
-): Promise<ResizeImageWidthResult> => {
+): ResizeImageWidthResult => {
   // For performance reasons we want to avoid changing the img data array size.
   // Instead we'll just keep the record of the resized image width and height separately.
   const size: ImageSize = { w: img.width, h: img.height };
