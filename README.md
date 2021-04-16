@@ -2,7 +2,7 @@
 
 Content-aware image resizer
 
-- ▶️ [️Demo](https://trekhleb.dev/js-image-carver)
+- ▶️ [️Demo](https://trekhleb.dev/js-image-carver/)
 - ✏️ [How it works](https://trekhleb.dev/blog/2021/content-aware-image-resizing-in-javascript/)
 - 📄 [Seam carving paper](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf) by *Shai Avidan* and *Ariel Shamir*
 
@@ -30,7 +30,7 @@ The importance of each pixel (so-called pixel's energy) is being calculated base
 
 ![JS IMAGE CARVER OBJECT REMOVAL DEMO](public/demo-02.gif)
 
-You may [launch the JS IMAGE CARVER](https://trekhleb.dev/js-image-carver) and play around with resizing of your custom images. You may also check its [source-code](https://github.com/trekhleb/js-image-carver/tree/main/src/utils).
+You may [launch the JS IMAGE CARVER](https://trekhleb.dev/js-image-carver/) and play around with resizing of your custom images. You may also check its [source-code](https://github.com/trekhleb/js-image-carver/tree/main/src/utils).
 
 ### More examples
 
